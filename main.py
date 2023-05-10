@@ -151,6 +151,7 @@ class Face_Recognition_System:
         self.new_window=Toplevel(self.root)
         self.app=Student(self.new_window)
 
+        # function for photos
     def open_img(self):
         os.startfile("data")
  
@@ -160,7 +161,7 @@ class Face_Recognition_System:
         self.app=Train(self.new_window)
 
         
-    # function for train
+    # function for face detection
     def face_data(self):
         self.new_window=Toplevel(self.root)
         self.app=Face_Recognition(self.new_window)
